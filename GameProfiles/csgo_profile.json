@@ -1,0 +1,27 @@
+{
+  "Name": "CSGO",
+  "DisplayName": "Counter-Strike 2",
+  "IconPath": "\uD83D\uDCA5",
+  "ExecutableName": "cs2.exe",
+  "IsActive": false,
+  "AutoSwitch": true,
+  "Optimizations": {
+    "ServicesToDisable": [
+      "Windows Search",
+      "Superfetch",
+      "Windows Update",
+      "Print Spooler",
+      "Fax",
+      "Tablet PC Input Service",
+      "Secondary Logon",
+      "Remote Registry",
+      "Windows Error Reporting Service"
+    ],
+    "EnableHighPerformanceMode": true,
+    "SuspendBackgroundTasks": true,
+    "SetGpuHighPerformance": true,
+    "CpuPriority": 1,
+    "DisableWindowsUpdates": true,
+    "DisableDefender": false
+  }
+}

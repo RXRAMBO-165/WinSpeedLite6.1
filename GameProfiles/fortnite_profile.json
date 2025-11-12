@@ -1,0 +1,27 @@
+{
+  "Name": "Fortnite",
+  "DisplayName": "Fortnite",
+  "IconPath": "\u26A1",
+  "ExecutableName": "FortniteClient-Win64-Shipping.exe",
+  "IsActive": false,
+  "AutoSwitch": true,
+  "Optimizations": {
+    "ServicesToDisable": [
+      "Windows Search",
+      "Superfetch",
+      "Windows Update",
+      "Print Spooler",
+      "Fax",
+      "Tablet PC Input Service",
+      "Secondary Logon",
+      "Remote Registry",
+      "Windows Error Reporting Service"
+    ],
+    "EnableHighPerformanceMode": true,
+    "SuspendBackgroundTasks": true,
+    "SetGpuHighPerformance": true,
+    "CpuPriority": 1,
+    "DisableWindowsUpdates": true,
+    "DisableDefender": false
+  }
+}

@@ -1,0 +1,6 @@
+Portable Özellikleri:
+✅ Kurulum gerektirmez
+✅ USB'de taşınabilir
+✅ Registry'ye dokunmaz
+✅ Self-contained runtime
+✅ Ayarlar portable.ini'de

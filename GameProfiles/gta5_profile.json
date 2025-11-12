@@ -1,0 +1,27 @@
+{
+  "Name": "GTA5",
+  "DisplayName": "Grand Theft Auto V",
+  "IconPath": "\uD83D\uDE97",
+  "ExecutableName": "GTA5.exe",
+  "IsActive": false,
+  "AutoSwitch": true,
+  "Optimizations": {
+    "ServicesToDisable": [
+      "Windows Search",
+      "Superfetch",
+      "Windows Update",
+      "Print Spooler",
+      "Fax",
+      "Tablet PC Input Service",
+      "Secondary Logon",
+      "Remote Registry",
+      "Windows Error Reporting Service"
+    ],
+    "EnableHighPerformanceMode": true,
+    "SuspendBackgroundTasks": true,
+    "SetGpuHighPerformance": true,
+    "CpuPriority": 1,
+    "DisableWindowsUpdates": true,
+    "DisableDefender": false
+  }
+}

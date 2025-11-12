@@ -1,0 +1,27 @@
+{
+  "Name": "PUBG",
+  "DisplayName": "PlayerUnknown\u0027s Battlegrounds",
+  "IconPath": "\uD83C\uDFAE",
+  "ExecutableName": "TslGame.exe",
+  "IsActive": false,
+  "AutoSwitch": true,
+  "Optimizations": {
+    "ServicesToDisable": [
+      "Windows Search",
+      "Superfetch",
+      "Windows Update",
+      "Print Spooler",
+      "Fax",
+      "Tablet PC Input Service",
+      "Secondary Logon",
+      "Remote Registry",
+      "Windows Error Reporting Service"
+    ],
+    "EnableHighPerformanceMode": true,
+    "SuspendBackgroundTasks": true,
+    "SetGpuHighPerformance": true,
+    "CpuPriority": 1,
+    "DisableWindowsUpdates": true,
+    "DisableDefender": false
+  }
+}
